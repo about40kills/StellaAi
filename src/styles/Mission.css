@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", "Roboto", "Oxygen", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--white);
+  color: var(--text-dark);
+}
+
+.mission {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgb(178, 233, 178);
+  margin: 0;
+  position: relative;
+  padding: 20px;
+}
+
+.earthimage {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.button {
+  padding: 12px 24px;
+  border: 2px solid rgba(31, 29, 29, 0.5);
+  background: transparent;
+  color: rgba(17, 16, 16, 0.5);
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  min-width: 150px;
+  margin: 5px;
+}
+
+.button:hover {
+  background: white;
+  color: rgb(49, 140, 58);
+  border-color: white;
+}

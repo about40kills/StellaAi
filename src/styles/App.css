@@ -1,0 +1,32 @@
+:root {
+  --primary-green: #4caf50;
+  --light-green: #81c784;
+  --dark-green: #388e3c;
+  --white: #ffffff;
+  --light-gray: #f5f5f5;
+  --text-dark: #333333;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: var(--white);
+  color: var(--text-dark);
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}

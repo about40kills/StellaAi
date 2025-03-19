@@ -1,0 +1,152 @@
+.press-section {
+  padding: 60px 80px;
+  background: #fff;
+}
+
+.press-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.press-header h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #000;
+}
+
+.read-more {
+  color: #00c853;
+  font-size: 18px;
+  text-decoration: none;
+}
+.nav-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #00c853;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+  z-index: 3;
+}
+
+.nav-button:hover {
+  background: #00a844;
+}
+
+.nav-button.prev {
+  left: -24px;
+}
+
+.nav-button.next {
+  right: -24px;
+}
+
+.nav-button span {
+  line-height: 1;
+}
+
+.press-container {
+  position: relative;
+  overflow: hidden;
+  padding: 0 40px;
+}
+
+.press-cards {
+  display: flex;
+  gap: 24px;
+  transition: transform 0.5s ease;
+}
+
+.press-card {
+  flex: 0 0 calc(33.333% - 16px);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+.card-image {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 24px;
+}
+
+.date {
+  display: block;
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.card-content h3 {
+  font-size: 18px;
+  line-height: 1.4;
+  color: #000;
+  margin: 0;
+  font-weight: 500;
+}
+
+/* Green overlay effect for images */
+.card-image::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 200, 83, 0.1);
+  pointer-events: none;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .press-section {
+    padding: 40px;
+  }
+
+  .press-header h1 {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .press-section {
+    padding: 20px;
+  }
+
+  .press-card {
+    flex: 0 0 100%;
+  }
+
+  .press-header h1 {
+    font-size: 28px;
+  }
+
+  .nav-button {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+}
