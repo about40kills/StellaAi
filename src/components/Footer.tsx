@@ -46,10 +46,10 @@ const Footer = () => {
 
           {/* Pharma.ai Links */}
           <div className="mb-8">
-            <h3 className="mb-4 text-sm font-bold text-gray-900">Pharma.ai</h3>
+            <h3 className="mb-4 text-sm font-bold text-gray-900">Stella.ai</h3>
             <ul className="space-y-3">
               <li>
-                <a href="https://pharma.ai" className="text-sm text-gray-600 hover:text-primary">Pharma.ai</a>
+                <a href="https://pharma.ai" className="text-sm text-gray-600 hover:text-primary">Stella.ai</a>
               </li>
               <li>
                 <a href="https://pharma.ai/pandaomics" className="text-sm text-gray-600 hover:text-primary">PandaOmics</a>
@@ -147,7 +147,7 @@ const Footer = () => {
               </a>
             </div>
             <div className="text-center md:text-right">
-              <p className="text-sm text-gray-500">© 2024 Insilico Medicine</p>
+              <p className="text-sm text-gray-500">© 2024 Stella Ai</p>
               <div className="mt-2 flex space-x-4">
                 <Link to="/cookies" className="text-sm text-gray-500 hover:text-primary">Cookies Policy</Link>
                 <Link to="/privacy" className="text-sm text-gray-500 hover:text-primary">Privacy Policy</Link>

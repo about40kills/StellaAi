@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import HeroSection from '../components/home/HeroSection';
 import PipelineSection from '../components/home/PipelineSection';
-import PharmaAiSection from '../components/home/PharmaAiSection';
+import PharmaAiSection from '../components/home/StellaAiSection';
 import CourseSection from '../components/home/CourseSection';
 import NewsSection from '../components/home/NewsSection';
 import AwardsSection from '../components/home/AwardsSection';

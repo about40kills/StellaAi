@@ -86,8 +86,8 @@ const PharmaAiSection = () => {
 
         {/* Download Section */}
         <div className="mt-10 rounded-lg bg-white p-6 shadow-md">
-          <h3 className="mb-6 text-xl font-bold text-gray-900">Insilico Medicine 2-page overview</h3>
-          <p className="mb-6 text-gray-700">Interested in learning more about Pharma.ai?</p>
+          <h3 className="mb-6 text-xl font-bold text-gray-900">Stella Ai 2-page overview</h3>
+          <p className="mb-6 text-gray-700">Interested in learning more about Stella.ai?</p>
           <div className="flex flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
             <a
               href="https://www.dropbox.com/scl/fi/0jk6s5yebnszajw6kygfn/March2025_Insilico-2-page-Flyer_Web.pdf?rlkey=915kiwf9mesoqz1pdefssigch&st=lfvqdvww&dl=1"

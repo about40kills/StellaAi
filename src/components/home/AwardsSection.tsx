@@ -34,7 +34,7 @@ const AwardsSection = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              About Insilico
+              About Stella Ai
             </a>
           </div>
         </div>

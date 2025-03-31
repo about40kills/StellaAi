@@ -11,7 +11,7 @@ const AboutPage = () => {
               <p className="mb-6 text-lg text-gray-800">
                 We are a globally leading end-to-end generative AI-driven biotech company in terms of AIDD pipeline progress,
                 with a mission to accelerate drug discovery and development by leveraging our rapidly evolving,
-                proprietary Pharma.AI platform across biology, chemistry and clinical development.
+                proprietary Stella.AI platform across biology, chemistry and clinical development.
               </p>
               <p className="text-lg text-gray-800">
                 Our generative AI platform helps us to rapidly and efficiently advance our fully self-generated AIDD pipeline
@@ -21,7 +21,7 @@ const AboutPage = () => {
             <div className="lg:w-1/3">
               <img
                 src="https://ext.same-assets.com/302764490/2524048382.svg"
-                alt="About Insilico"
+                alt="About Stella"
                 className="h-auto w-full"
               />
             </div>

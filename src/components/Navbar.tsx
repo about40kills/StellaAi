@@ -64,7 +64,7 @@ const Navbar = () => {
           </div>
           <div className="relative group">
             <button className="flex items-center text-sm font-medium text-gray-700 hover:text-primary">
-              Pharma.ai
+              Stella.ai
               <svg className="ml-1 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
               </svg>
