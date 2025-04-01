@@ -5,6 +5,7 @@ import PharmaAiSection from '../components/home/StellaAiSection';
 import CourseSection from '../components/home/CourseSection';
 import NewsSection from '../components/home/NewsSection';
 import AwardsSection from '../components/home/AwardsSection';
+import Test from '../components/Test'
 
 const HomePage = () => {
   return (
@@ -45,6 +46,8 @@ const HomePage = () => {
 
       {/* Pipeline Visualization Section */}
       <PipelineSection />
+
+      <Test/>
 
       {/* Course Section */}
       <CourseSection />

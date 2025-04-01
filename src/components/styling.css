@@ -1,0 +1,35 @@
+*{
+    background-color: #33333300;
+}
+
+.container{
+    box-shadow: 0px 6px 12px 0px rgb(203, 203, 203);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.btn{
+    padding: 10px;
+    background-color: black;
+    border-radius: 4px;
+    color: white;
+    margin-top: 20px;
+}
+
+.smiles-input{
+    padding: 10px;
+    border: 1px solid;
+    width: 300px;
+}
+
+.predict{
+    margin-top: 20px;
+}
+
+.card{
+    box-shadow: 0px 6px 9px 0px rgba(224, 224, 224, 0.356);
+    padding: 20px;
+    width: 450px;
+    margin-top: 30px;
+    word-wrap: break-word;
+}
