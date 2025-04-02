@@ -1,13 +1,19 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import HTMLResponse
 import joblib
+import os
 from rdkit import Chem
 from rdkit.Chem import Descriptors
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 
 # Load the trained model
-model = joblib.load("/Users/macbook/Desktop/AI/StellaAi/StellaModel/model/toxicity_model1.pkl")
+# 1. Get the directory where `main.py` is located
+script_dir = os.path.dirname(__file__)  
+
+# 2. Navigate up one level (`..`) to the project root, then into `model/`
+model_path = os.path.join(script_dir, "..", "model", "toxicity_model1.pkl") 
+model = joblib.load(model_path)
 
 # Initialize FastAPI app
 app = FastAPI()
